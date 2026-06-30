@@ -1,33 +1,9 @@
 # Node.js
 # node_modules/ — carpeta con dependencias (peso: cientos de MB).
 #                 La barra "/" especifica que es una carpeta (ignora recursivamente).
-# npm-debug.log* — archivos de logs de npm con cualquier extensión.
-#                  El asterisco (*) actúa como comodín para capturar variaciones.
 node_modules/
-npm-debug.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
 
 # Environment
 # .env — archivo de configuración con secretos (URIs, API keys, contraseñas).
 #        NUNCA debe subirse a GitHub por seguridad.
-# .env.local / .env.*.local — variantes locales del archivo de configuración.
 .env
-.env.local
-.env.*.local
-
-# IDE
-# .vscode/, .idea/ — carpetas de configuración de editores (con barra "/" se ignora todo dentro).
-# *.swp, *.swo — archivos temporales de editors como Vim/Nano.
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-# .DS_Store — archivo del sistema de macOS (innecesario en repositorio).
-# Thumbs.db — archivo del sistema de Windows (innecesario en repositorio).
-.DS_Store
-Thumbs.db
